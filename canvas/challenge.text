@@ -1,0 +1,5 @@
+create a compelling canvas animation involving multiple objects with at least one being controlled by key presses.
+
+bonus points for no libraries!
+
+most of your manipulations will make use of a context object provided by document.getElementById('display').getContext('2d') 

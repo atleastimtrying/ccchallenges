@@ -1,0 +1,3 @@
+Create an interactive multipart form to generate the supplied json file format (to be pushed to a server).
+
+bonus points for not using libraries!

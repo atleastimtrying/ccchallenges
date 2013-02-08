@@ -1,0 +1,6 @@
+create an app to read the provided json file and create a compelling display based upon the json.
+
+bonus points for no libraries
+
+hints:
+ coffeescript some nice iterations

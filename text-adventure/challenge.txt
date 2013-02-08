@@ -1,0 +1,7 @@
+Using node.js create a text adventure game reading text inputs and outputs from the command line.
+
+bonus points for making use of a database to provide extensibility.
+
+hints:
+
+node.js
