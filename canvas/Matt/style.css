@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  font-weight:normal;
+  font-size:24px;
+  color:#666;
+  text-shadow:0 1px 1px white;
+}
+
+article, section{
+  width: 800px;
+  margin: 40px auto;
+  background:#efefef;
+  box-shadow:0 0 16px #ccc;
+  border: 1px solid #ccc;
+  border-radius:4px;
+  overflow:hidden;
+  text-align:center;
+}
+
+header{
+  background:#ededed;
+  box-shadow:inset 0 0 24px #333;
+  padding:23px;
+  border: 1px solid #333;
+  text-align:left;
+}
+
+header h1{
+  font-size:96px;
+}
+header h2{
+  font-size:48px;
+}
+#display{
+  font-family: 'Courier New' monospace;
+  padding:24px;
+  margin:24px;
+  background:white;
+  border-radius:2px;
+  box-shadow:0 0 12px #333;
+  display:inline-block;
+}
+
+#help {
+  background-color: #BDB;
+}
