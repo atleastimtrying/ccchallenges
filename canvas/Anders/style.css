@@ -35,10 +35,12 @@ header h2{
 }
 #display{
   font-family: 'Courier New' monospace;
-  padding:24px;
   margin:24px;
   background:white;
   border-radius:2px;
   box-shadow:0 0 12px #333;
+  width:700px;
+  height:250px;
   display:inline-block;
+  cursor: none;
 }
