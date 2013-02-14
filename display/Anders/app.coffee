@@ -12,7 +12,7 @@ class Display
     $(@app).bind 'ready', @buildDom
 
   buildDom: (event, json)=>
-    for person in json.data
+    for person in json.people
       @buildPerson person
 
   buildPerson:(json)=>
