@@ -16,7 +16,6 @@ article{
   border: 1px solid #ccc;
   border-radius:4px;
   overflow:hidden;
-  text-align:center;
 }
 
 header{
@@ -48,4 +47,26 @@ header h2{
   -o-user-select: none;
   user-select: none;
   cursor:pointer;
+}
+.person{
+  background:white;
+  padding:12px;
+  margin-bottom:24px;
+
+}
+
+section{
+  padding:11px;
+  border:1px solid #eee;
+  border-radius:2px;
+}
+h3{
+  border-bottom:1px solid #ccc;
+}
+span{
+  border:1px solid #eee;
+  padding:7px;
+  margin:8px;
+  border-radius:2px;
+  display:inline-block;
 }
