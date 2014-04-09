@@ -1,0 +1,4 @@
+create an angular js app and make use of angular directives in coffeescript clinic
+
+hints:
+???
