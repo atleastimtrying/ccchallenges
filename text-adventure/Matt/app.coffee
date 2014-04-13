@@ -15,6 +15,7 @@ class World
       'x1_y0':   ['Yellow brick road',  "You see a brick road, with a small house beside it and a green ooze eminating from the foundations. Small munchkins chant your name."]
       'x1_y-1':  ['Rode Too Parahdyes', "I once heard a story about muggers promising people heaven along a certain road, then killing them and taking their money. I'm sure that's not the case here though."]
       'x0_y-1':  ['The Mummy',          "Your mother meets you on the road - you forgot your packed lunch. One big sloppy kiss later, gain +1 nourishment points, and -192 peer esteem points."]
+      'x0_y-2':  ['Norwich',            "A canary sits beside a lake in which a girl seems to be swimming lengths at great speed. A nice chap stops by and tells you that a human heart can squirt blood 30ft. Maybe it isn't safe here after all."]
       'x-1_y-1': ['Graveyard',          "You see a tombstone: [YOUR NAME] - Died #{new Date().toHumanDateString()}. Stuck his nose in graveyards that it didn't belong... in? His nose. It just... he just shouldn't have stuck it there."]
       'x-1_y0':  ['Misty mountains',    "Yeesh, so much mist. You could lose a whole town in this. Best keep moving"]
       'x-1_y1':  ['Road to wales',      "What's that smell? Mint sauce?"]
