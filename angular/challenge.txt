@@ -1,4 +1,4 @@
-create a D3 visualisation using the json data provided.
+Create an angular js app and make use of angular directives in coffeescript clinic
 
 hints:
-D3 behaves pretty much the same as it does for js. see the D3 website.
+???

@@ -33,6 +33,7 @@ header h1{
 header h2{
   font-size:48px;
 }
+
 #display{
   font-family: 'Courier New' monospace;
   margin:24px;
@@ -51,5 +52,78 @@ header h2{
 }
 
 /* Here comes the app... */
-#display * { display: inline-block; border: 6px solid black; margin: 10px; padding: 10px;}
+.row {
+  display: block;
+  padding: 2px;
+  margin-bottom: -20px;
+}
 
+.horiz, .vert {
+  display: inline-block;
+  cursor: hand;
+}
+
+.horiz {
+  width: 15px;
+  height: 5px;
+  margin: 0 15px;
+  background-color: rgba(0,100,0, 0.3);
+}
+
+.vert:after {
+  background-color: #EEE;
+  width: 20px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  top: -33px;
+  left: 16px;
+  content: '\00a0';
+}
+
+.vert:last-child:after {
+  visibility: hidden;
+}
+
+.vert {
+  width: 5px;
+  height: 15px;
+  margin: 0 20px;
+  background-color: rgba(0,100,0, 0.3);
+}
+
+.horiz:hover, .vert:hover {
+  background-color: rgba(0,0,100,0.6);
+}
+
+.move {
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.p1 {
+  background-color: #A00;
+  color: white;
+}
+
+.p2 {
+  background-color: #303;
+  color: white;
+}
+
+.p3 {
+  background-color: #00A;
+  color: white;
+}
+
+.p1-won:after {
+  background-color: #A00;
+}
+
+.p2-won:after {
+  background-color: #303;
+}
+
+.p3-won:after {
+  background-color: #00A;
+}

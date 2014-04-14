@@ -5,18 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title></title>
   <meta name="description" content="">
-  <meta name="author" content="Anders Fisher">
+  <meta name="author" content="Matthew Bennett-Lovesey">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <article>
     <header>
       <h1>Coffeescript Clinic</h1>
-      <h2></h2>
+      <h2>"Squares"</h2>
     </header>
-    <div id='display'>
+    <div ng-app="squares" ng-controller="squares-controller">
+      <div ng-repeat="player in players" class="move p{{player}}" ng-show="current_player == player">
+        Player {{player}} - your move
+      </div>
+
+      <div ng-repeat="row in [0,1,2,3,4,5,6]" class="row">
+        <div>
+          <span ng-repeat="horiz in [0,1,2,3,4]" class="horiz" ng-class="hCssClass(row, horiz)" ng-click="chooseHorizontal(row, horiz)">&nbsp;</span>
+        </div>
+        <div ng-hide="row == 6">
+          <span ng-repeat="vert in [0,1,2,3,4,5]" class="vert" ng-class="vCssClass(row, vert)" ng-click="chooseVertical(row, vert)">&nbsp;</span>
+        </div>
+      </div>
     </div>
   </article>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js"></script>
   <script src="app.js"></script>
   <script src="json.js"></script>
 </body>
