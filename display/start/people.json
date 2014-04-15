@@ -1,14 +1,14 @@
 {
    "people": [
       {
-         name: "Anders Fisher",
-         email: "anders@js-dev.co.uk",
-         age: 26
+         "name": "Anders Fisher",
+         "email": "anders@js-dev.co.uk",
+         "age": 26
       },
       {
-         name: "Matt Bennett",
-         email: "matt@wearepandr.com",
-         age: 27
+         "name": "Matt Bennett",
+         "email": "matt@wearepandr.com",
+         "age": 27
       }
    ]
 }
