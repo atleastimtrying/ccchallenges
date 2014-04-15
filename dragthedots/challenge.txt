@@ -1,0 +1,4 @@
+remake Anders' game 'drag the dots' making use of jquery ui and some hit detection maths!
+
+hints:
+  use seperate classes to seperate your concerns and use requestanimationframe for the loop!
